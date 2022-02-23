@@ -19,3 +19,17 @@ else:
        factorial = factorial*i
    print("The factorial of",num,"is",factorial)
 # Member D changed this part
+
+
+
+# Member B added below part
+
+# function which return reverse of a string
+ 
+def isPalindrome(s):
+    return s == s[::-1]
+ 
+ 
+# Driver code
+s = "malayalam"
+ans = isPalindrome(s)
