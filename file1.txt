@@ -1,4 +1,4 @@
-# Python program to find the factorial of a number provided by the user.
+i# Python program to find the factorial of a number provided by the user.
 # This is changed by Member-D 
 
 # change the value for a different result
@@ -33,3 +33,13 @@ def isPalindrome(s):
 # Driver code
 s = "malayalam"
 ans = isPalindrome(s)
+
+
+#This was Changed by Member-C
+# Python program to convert decimal into other number systems
+dec = 344
+
+print("The decimal value of", dec, "is:")
+print(bin(dec), "in binary.")
+print(oct(dec), "in octal.")
+print(hex(dec), "in hexadecimal.")
